@@ -1,0 +1,157 @@
+/* General Container and Layout Styling */
+.container {
+  background-color: #f9fafb; 
+  padding: 40px 30px; 
+  border-radius: 10px; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for elevation effect */
+  margin-top: 50px; 
+}
+
+/* Heading Styling */
+h2 {
+  color: #333; 
+  font-size: 36px; 
+  font-weight: 600; 
+  text-align: center; 
+  margin-bottom: 30px; 
+}
+
+/* Section Wrapper */
+.custom-filter-container {
+  background-color: #e0e0e0; 
+  padding: 20px; 
+  border-radius: 10px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  gap: 15px; 
+  flex-wrap: wrap; 
+  margin-bottom: 30px; 
+}
+
+/* Dropdowns container (left side) */
+.left-filters {
+  display: flex; 
+  gap: 15px; 
+  align-items: center;
+}
+
+/* Dropdowns for category and tag */
+.left-filters .form-select {
+  min-width: 120px; 
+  font-size: 14px; 
+  padding: 8px 14px;
+}
+
+/* Search Bar container (right side) */
+.custom-filter-container .search-bar-container {
+  display: flex; 
+  align-items: center; 
+  gap: 10px; 
+  justify-content: flex-end;
+}
+
+/* Input and Select Styling (For both text input and dropdowns) */
+input[type="text"],
+.form-select {
+  font-size: 16px; 
+  padding: 12px 20px; 
+  border-radius: 8px; 
+  border: 1px solid #ddd; 
+  background-color: #fff; 
+  transition: 0.3s; 
+  color: #555; 
+}
+
+/* Focus Effect for input and select elements */
+input[type="text"]:focus,
+.form-select:focus {
+  border-color: #3498db; 
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.4); 
+}
+
+/* Search Bar Input */
+.search-input {
+  width: 250px; 
+  padding: 14px 20px; 
+}
+
+
+/* Blog Post Card Styling */
+.card {
+  border: 1px solid #ddd; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* Card Hover Effect */
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+/* Card Image Styling */
+.card-img-top {
+  width: 100%;
+  height: 180px; 
+  object-fit: cover; 
+}
+
+/* Card Body Styling */
+.card-body {
+  padding: 20px; /* Internal padding */
+}
+
+/* Card Title Styling */
+.card-title {
+  font-size: 18px; 
+  font-weight: bold; 
+  color: #333; 
+  margin-bottom: 15px; 
+}
+
+/* Card Text Styling */
+.card-text {
+  font-size: 14px; 
+  color: #777; 
+  margin-bottom: 15px; 
+}
+
+/* Card Link Styling */
+.card-body a {
+  color: #3498db; 
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Card Link Hover Effect */
+.card-body a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust the filter container for smaller screens */
+  .custom-filter-container {
+    flex-direction: column; 
+    gap: 20px;
+    align-items: stretch; /* Stretch elements to full width */
+  }
+
+  /* Adjust the search bar container layout */
+  .search-bar-container {
+    justify-content: flex-start; 
+    width: 100%; 
+  }
+
+  /* Make search input take full width */
+  .search-input {
+    width: 100%; 
+  }
+
+  /* Ensure cards have space between them */
+  .card {
+    margin-bottom: 20px; 
+  }
+}
