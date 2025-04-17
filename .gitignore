@@ -30,10 +30,10 @@ package-lock.json
 package.json
 README.md
 src/index.css
+src/App.css
 src/logo.svg
 src/reportWebVitals.js
 src/setupTests.js
-src/App.css
 src/App.js
 src/App.test.js
 src/index.js

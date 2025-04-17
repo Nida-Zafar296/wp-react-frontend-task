@@ -7,7 +7,6 @@ This is a React-based frontend project that connects to a WordPress post via RES
 
 - React JS (Frontend)
 - WordPress (Backend with REST API)
-- CSS for styling
 - JavaScript for logic and API handling
 - REST API to connect frontend with WordPress data
 
@@ -65,16 +64,15 @@ cd wp-react-frontend
 npm install react-router-dom
 npm start
 
-##  Demo & Screenshots
+###  Demo & Screenshots
 
-###  Project Working Video:
- [ Working video](https://drive.google.com/file/d/1e7FbgNW9TfxjQ-i4ES-U3wOKxp-mq0Xe/view?usp=drive_link)
+### [Working Video](https://drive.google.com/file/d/1e7FbgNW9TfxjQ-i4ES-U3wOKxp-mq0Xe/view?usp=drive_link)
 
-### 📸 Screenshots:
--  [Blog List View - Screenshot 1](https://drive.google.com/file/d/1zGKdGhfnxF4fMTsbho8Tifn5kcU-1dB-/view?usp=drive_link)  
-- [Blog List View - Screenshot 2](https://drive.google.com/file/d/11qk8FYZH8q3-O1uBTId9qhKgVp8rQUxn/view?usp=drive_link)  
+###  Blog List View:
+- [Screenshot 1](https://drive.google.com/file/d/1zGKdGhfnxF4fMTsbho8Tifn5kcU-1dB-/view?usp=drive_link)
+- [Screenshot 2](https://drive.google.com/file/d/11qk8FYZH8q3-O1uBTId9qhKgVp8rQUxn/view?usp=drive_link)
 
-###  Post Detail Page :
- [Watch Post Detail Page in Action](https://drive.google.com/file/d/1T6403fafnegVe5q__h8rmURcDfvCgqE9/view?usp=drive_link)
+###  [Post Detail Page](https://drive.google.com/file/d/1T6403fafnegVe5q__h8rmURcDfvCgqE9/view?usp=drive_link)
+
 
 
